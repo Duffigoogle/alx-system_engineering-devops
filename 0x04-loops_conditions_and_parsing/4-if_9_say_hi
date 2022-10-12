@@ -2,9 +2,9 @@
 # displays Best School 10 times, and say Hi in the 9th iteration
 
 COUNTER=0
-while [ $COUNTER -lt 10 ]
+while [ $COUNTER -lt 11 ]
 do
-    if [ $COUNTER = 8 ]
+    if [ $COUNTER = 9 ]
     then
         echo "Hi"
     else
