@@ -19,7 +19,7 @@ import requests
 
 
 def recurse(subreddit, hot_list=[], after=None):
-    headers = {'User-Agent': 'Diana'}
+    headers = {'User-Agent': 'Duff'}
     url = 'https://www.reddit.com/r/' + subreddit + '/hot.json?limit=100'
 
     if after is not None:
